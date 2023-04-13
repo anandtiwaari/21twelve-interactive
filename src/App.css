@@ -1,0 +1,104 @@
+.url {
+  display: -webkit-box;
+  /* max-width: 200px; */
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.album_title {
+  display: -webkit-box;
+  /* max-width: 200px; */
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.photos_title {
+  /* display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden; */
+  margin-bottom: 1rem;
+}
+.loaderElem {
+  margin-top: 28vh;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  text-align: center;
+  background-color: #f1f1f1;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+.image-album {
+  border-radius: 10px 10px 10px 10px;
+}
+
+.navbar_new {
+  position: fixed;
+  top: 0;
+  width: -webkit-fill-available;
+  z-index: 5;
+}
+
+.card-wrapper-user {
+  margin-top: 80px;
+}
+
+.heading_user button {
+  font-size: 20px;
+  font-weight: 600;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.user-email,
+.user-name {
+  text-decoration: none;
+}
+.user-link-wrap {
+  text-decoration: none;
+  border-bottom: none;
+}
