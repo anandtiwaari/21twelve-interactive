@@ -7,7 +7,7 @@ export const Navbar = (props) => {
       <nav className="navbar navbar_new navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            21Twelve
           </a>
           <button
             className="navbar-toggler"
